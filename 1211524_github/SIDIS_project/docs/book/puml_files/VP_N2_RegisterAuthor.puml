@@ -1,0 +1,14 @@
+@startuml
+title Register Author
+actor "HTTP Client" as client
+participant ":Books" as Books
+
+client -> Books: 1: PUT /api/authors/{authorNr}
+activate Books
+alt if exception is returned
+  Books -> client: 2: 409 Conflict - Author already exits
+else
+  Books -> client: 3: 201 - Author registered
+end
+deactivate Books
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+title View List Of Book Suggestions
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : View list of book suggestions
+LMS --> HTTP_Client : 200 - List of book suggestions
+
+@enduml

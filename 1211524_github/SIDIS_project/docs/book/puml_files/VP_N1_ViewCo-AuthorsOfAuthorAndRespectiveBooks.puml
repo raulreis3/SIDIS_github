@@ -1,0 +1,10 @@
+@startuml
+title View Co-Authors Of Author And Respective Books
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : View co-authors and their respective books
+LMS --> HTTP_Client : 200 - list of co-authors and books or 404 - not found
+
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+title Register Book With Cover Photo
+actor "HTTP Client" as client
+participant ":Books" as Books
+
+client -> Books: 1: PUT /api/books/{ISBN}
+activate Books
+alt if exception is returned
+  Books -> client: 2: 409 Conflict - Book already exists
+else
+  Books -> client: 3: 201 - Registered book with cover photo
+end
+deactivate Books
+@enduml

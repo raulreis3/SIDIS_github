@@ -1,0 +1,14 @@
+@startuml
+title RegisterAsAReader
+actor "HTTP Client" as client
+participant ":Readers" as Readers
+
+client -> Readers: 1: POST /api/readers
+activate Readers
+alt if exception is returned
+  Readers -> client: 2: 409 Conflict - reader already exists
+else
+  Readers -> client: 3: 201 Created - reader registered successfully
+end
+deactivate Readers
+@enduml

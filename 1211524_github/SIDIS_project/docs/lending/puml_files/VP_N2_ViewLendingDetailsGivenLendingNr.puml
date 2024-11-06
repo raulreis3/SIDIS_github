@@ -1,0 +1,14 @@
+@startuml
+title View Lending Details Given LendingNr
+actor "HTTP Client" as client
+participant ":Lendings" as Lendings
+
+client -> Lendings: 1: GET /api/lendings/{lendingNr}
+activate Lendings
+alt if book is found
+  Lendings -> client: 2: 200 OK - Lending details
+else
+  Lendings -> client: 3: 404 Not Found - Lending with specific lendingNr not found
+end
+deactivate Lendings
+@enduml

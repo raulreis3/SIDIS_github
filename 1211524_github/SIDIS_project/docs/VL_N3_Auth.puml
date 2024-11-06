@@ -1,0 +1,7 @@
+@startuml
+rectangle "Auth" <<Container (C4)>> #skyblue {
+    rectangle "Auth Backend" as auth_backend #skyblue
+    database "H2 Database" as auth_db
+}
+auth_backend -[#black,plain]-(0 auth_db : JPA
+@enduml

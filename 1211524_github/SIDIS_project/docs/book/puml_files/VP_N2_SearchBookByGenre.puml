@@ -1,0 +1,14 @@
+@startuml
+title Search Books By Genre
+actor "HTTP Client" as client
+participant ":Books" as Books
+
+client -> Books: 1: GET /api/book?genre={genre}
+activate Books
+alt if author is found
+  Books -> client: 2: 200 OK - Books with the specific genre
+else
+  Books -> client: 3: 404 Not Found - Books with the specific genre not found
+end
+deactivate Books
+@enduml

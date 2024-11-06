@@ -1,0 +1,10 @@
+@startuml
+title Top 5 Readers
+actor "HTTP Client" as client
+participant ":Readers" as Readers
+
+client -> Readers: 1: GET /api/books/top/readers
+activate Readers
+Readers -> client: 2: 200 OK - List of Top 5 Readers
+deactivate Readers
+@enduml

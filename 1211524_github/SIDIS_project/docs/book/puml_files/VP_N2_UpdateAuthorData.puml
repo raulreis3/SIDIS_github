@@ -1,0 +1,14 @@
+@startuml
+title Update Author Data
+actor "HTTP Client" as client
+participant ":Books" as Books
+
+client -> Books: 1: PUT /api/authors/{authorNr}
+activate Books
+alt if exception is returned
+  Books -> client: 2: 404 Not Found - Author not found
+else
+  Books -> client: 3: 200 OK - Author data updated
+end
+deactivate Books
+@enduml

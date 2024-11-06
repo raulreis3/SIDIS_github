@@ -1,0 +1,10 @@
+@startuml
+title Top 5 Readers
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Get top 5 readers
+LMS --> HTTP_Client : 200 - List of top 5 readers
+
+@enduml

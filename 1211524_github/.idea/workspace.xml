@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb7cbd29-2a47-4585-b7db-e01ddf5875c3" name="Changes" comment="Code updates (Most part of Books working)">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/model/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/authormanagement/api/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/authormanagement/api/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/authormanagement/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/authormanagement/service/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/authormanagement/service/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/authormanagement/service/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bookmanagement/api/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bookmanagement/api/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bookmanagement/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bookmanagement/services/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bookmanagement/services/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bookmanagement/services/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bookmanagement/services/FileStorageException.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bookmanagement/services/FileStorageException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bootstrapping/DatabaseCleanup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Book/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Book/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Lending/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Lending/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Lending/src/main/java/com/example/SIDIS_Lending/configuration/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Lending/src/main/java/com/example/SIDIS_Lending/configuration/ApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Lending/src/main/java/com/example/SIDIS_Lending/lendingmanagement/api/LendingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Lending/src/main/java/com/example/SIDIS_Lending/lendingmanagement/api/LendingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/bootstrapping/DatabaseCleanup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/configuration/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/configuration/ApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/exceptions/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/api/ReaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/api/ReaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/api/ReaderViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/api/ReaderViewMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/model/InterestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/model/InterestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/model/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/model/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/repositories/ReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/repositories/ReaderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/services/ReaderEditMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/services/ReaderEditMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/services/ReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SIDIS_project/Reader/src/main/java/com/example/SIDIS_Reader/readermanagement/services/ReaderService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oRPccdEgDIR2N4KQEJ8tg4RMcg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/raulr/IntelliJProjects/1211524/SIDIS_project/Book/src/main/java/com/example/SIDIS_Book/bookmanagement/model&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raulr\IntelliJProjects\1211524\SIDIS_project\Book\src\main\java\com\example\SIDIS_Book\bookmanagement\model" />
+      <recent name="C:\Users\raulr\IntelliJProjects\1211524\SIDIS_project\Auth\src\main\java\com\example\SIDIS_Auth\usermanagement\model" />
+      <recent name="C:\Users\raulr\IntelliJProjects\1211524\SIDIS_project\Reader\src\main\resources" />
+      <recent name="C:\Users\raulr\IntelliJProjects\1211524\SIDIS_project\Lending\src\main\resources" />
+      <recent name="C:\Users\raulr\IntelliJProjects\1211524\SIDIS_project\Book\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.SIDIS_Reader.readermanagement.model" />
+      <recent name="com.example.SIDIS_Book.bookmanagement.model" />
+      <recent name="com.example.SIDIS_Lending.lendingmanagement.model" />
+      <recent name="com.example.SIDIS_Lending.bootstrapping" />
+      <recent name="com.example.SIDIS_Book.bootstrapping" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SidisReaderApplication">
+    <configuration name="SidisAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SIDIS_Auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SIDIS_Auth.SidisAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SidisAuthApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8081" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="spring.datasource.url" />
+        </param>
+      </additionalParameters>
+      <module name="SIDIS_Auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SIDIS_Auth.SidisAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SidisBookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SIDIS_Book" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SIDIS_Book.SidisBookApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SidisLendingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SIDIS_Lending" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SIDIS_Lending.SidisLendingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SidisReaderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SIDIS_Reader" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SIDIS_Reader.SidisReaderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SidisAuthApplication" />
+      <item itemvalue="Spring Boot.SidisAuthApplication2" />
+      <item itemvalue="Spring Boot.SidisBookApplication" />
+      <item itemvalue="Spring Boot.SidisLendingApplication" />
+      <item itemvalue="Spring Boot.SidisReaderApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb7cbd29-2a47-4585-b7db-e01ddf5875c3" name="Changes" comment="" />
+      <created>1730829495724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730829495724</updated>
+      <workItem from="1730829496752" duration="18273000" />
+      <workItem from="1730883988101" duration="12945000" />
+    </task>
+    <task id="LOCAL-00001" summary="Code updates (Auth working) + Docs updates + Project Structure updates (removal of the &quot;father&quot; project)">
+      <option name="closed" value="true" />
+      <created>1730834778120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730834778120</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Code updates (Most part of Books working)">
+      <option name="closed" value="true" />
+      <created>1730848453176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730848453176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Code updates (Auth working) + Docs updates + Project Structure updates (removal of the &quot;father&quot; project)" />
+    <MESSAGE value="Code updates (Most part of Books working)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code updates (Most part of Books working)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.file.NoSuchFileException" package="java.nio.file" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

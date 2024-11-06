@@ -1,0 +1,14 @@
+@startuml
+title Search Author By Name
+actor "HTTP Client" as client
+participant ":Books" as Books
+
+client -> Books: 1: GET /api/authors?name={name}
+activate Books
+alt if author is found
+  Books -> client: 2: 200 OK - Authors with the specific name
+else
+  Books -> client: 3: 404 Not Found - Author with the specific name not found
+end
+deactivate Books
+@enduml

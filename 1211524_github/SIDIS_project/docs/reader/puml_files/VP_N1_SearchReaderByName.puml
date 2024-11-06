@@ -1,0 +1,10 @@
+@startuml
+title Search Reader By Name
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Search reader by name
+LMS --> HTTP_Client : 200 - Reader details or 404 - not found
+
+@enduml

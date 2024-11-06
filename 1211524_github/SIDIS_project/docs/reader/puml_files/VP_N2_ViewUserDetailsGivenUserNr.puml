@@ -1,0 +1,14 @@
+@startuml
+title View User Details Given User Nr
+actor "HTTP Client" as client
+participant ":Readers" as Readers
+
+client -> Readers: 1: GET /api/users/{userNr}
+activate Readers
+alt if user is found
+  Readers -> client: 2: 200 OK - user details
+else
+  Readers -> client: 3: 404 Not Found - user not found
+end
+deactivate Readers
+@enduml

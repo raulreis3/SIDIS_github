@@ -1,0 +1,14 @@
+@startuml
+title Return Book
+actor "HTTP Client" as client
+participant ":Lendings" as Lendings
+
+client -> Lendings: 1: POST /api/return/{isbn}
+activate Lendings
+alt if book is found
+  Lendings -> client: 2: 200 OK - Book returned successfully
+else
+  Lendings -> client: 3: 404 Not Found - Book not found
+end
+deactivate Lendings
+@enduml

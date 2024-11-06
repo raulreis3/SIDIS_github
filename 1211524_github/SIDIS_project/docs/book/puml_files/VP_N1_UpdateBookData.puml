@@ -1,0 +1,10 @@
+@startuml
+title Update Book Data
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Update book data
+LMS --> HTTP_Client : 200 - data updated or 404 - not found
+
+@enduml

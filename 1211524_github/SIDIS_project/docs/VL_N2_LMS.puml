@@ -1,0 +1,23 @@
+@startuml
+title Vista Lógica - Nível 2
+skinparam componentStyle rectangle
+
+rectangle "LMS" <<component>> <<Context (C4)>> #skyblue {
+    rectangle "auth" <<component>> <<Context (C4)>>
+    rectangle "readers" <<component>> <<Context (C4)>>
+    rectangle "books" <<component>> <<Context (C4)>>
+    rectangle "lendings" <<component>> <<Context (C4)>>
+}
+
+auth -right-0[HTTP Auth API]
+readers -left-0 [HTTP Readers API]
+readers -(0- "books"
+books -right-0 [HTTP Books API]
+books -(0- "lendings"
+lendings -right-0 [HTTP Lendings API]
+
+[HTTP Auth API] #skyblue
+[HTTP Readers API] #skyblue
+[HTTP Books API] #skyblue
+[HTTP Lendings API] #skyblue
+@enduml

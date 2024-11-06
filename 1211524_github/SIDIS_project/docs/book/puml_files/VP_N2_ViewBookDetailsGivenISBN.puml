@@ -1,0 +1,14 @@
+@startuml
+title View Book Details Given ISBN
+actor "HTTP Client" as client
+participant ":Books" as Books
+
+client -> Books: 1: GET /api/books/{ISBN}
+activate Books
+alt if book is found
+  Books -> client: 2: 200 OK - Book details
+else
+  Books -> client: 3: 404 Not Found - Book with specific ISBN not found
+end
+deactivate Books
+@enduml

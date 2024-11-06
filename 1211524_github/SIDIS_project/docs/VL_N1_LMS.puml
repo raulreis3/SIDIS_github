@@ -1,0 +1,14 @@
+@startuml
+title Vista Lógica - Nível 1
+rectangle "LMS" <<component>> <<Context (C4)>> #skyblue {
+    rectangle "**auth**" as auth
+    rectangle "**readers**" as readers
+    rectangle "**books**" as books
+    rectangle "**lendings**" as lendings
+}
+
+auth -- "HTTP Auth API"
+readers -- "HTTP Readers API"
+books -- "HTTP Books API"
+lendings -- "HTTP Lendings API"
+@enduml

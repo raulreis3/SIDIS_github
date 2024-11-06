@@ -1,0 +1,10 @@
+@startuml
+title Search Author By Name
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Search author by name
+LMS --> HTTP_Client : 200 - authors or 404 - not found
+
+@enduml

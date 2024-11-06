@@ -1,0 +1,10 @@
+@startuml
+title Register As A Reader With Optional Photo And List Of Interest
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Register as a reader with optional photo and list of interest
+LMS --> HTTP_Client : 201 - Reader registered or 409 - conflict
+
+@enduml

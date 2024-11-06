@@ -1,0 +1,21 @@
+@startuml
+title Vista Física - Nível 2
+left to right direction
+
+node "Auth" as Auth <<component>> <<Container (C4)>> #skyblue{
+  component "**auth**" #skyblue
+}
+node "Readers" as Readers <<component>> <<Container (C4)>> #skyblue{
+  component "**readers**" #skyblue
+}
+node "Books" as Books <<component>> <<Container (C4)>> #skyblue{
+  component "**books**" #skyblue
+}
+node "Lendings" as Lendings <<component>> <<Container (C4)>> #skyblue{
+  component "**lendings**" #skyblue
+}
+
+Auth -- Readers : HTTP/S
+Readers -- Books : HTTP/S
+Books -- Lendings : HTTP/S
+@enduml

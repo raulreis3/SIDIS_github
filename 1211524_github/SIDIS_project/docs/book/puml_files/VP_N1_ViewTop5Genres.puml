@@ -1,0 +1,10 @@
+@startuml
+title Top 5 Genres
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Get top 5 genres
+LMS --> HTTP_Client : 200 - list of top 5 genres
+
+@enduml

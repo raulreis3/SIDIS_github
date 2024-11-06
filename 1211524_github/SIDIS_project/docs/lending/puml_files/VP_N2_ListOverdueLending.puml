@@ -1,0 +1,10 @@
+@startuml
+title List Of Overdue Lendings
+actor "HTTP Client" as client
+participant ":Lendings" as Lendings
+
+client -> Lendings: 1: GET /api/lendings/overdue
+activate Lendings
+Lendings -> client: 2: 200 OK - List of overdue lendings
+deactivate Lendings
+@enduml

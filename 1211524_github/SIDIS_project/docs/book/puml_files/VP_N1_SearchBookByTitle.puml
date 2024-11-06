@@ -1,0 +1,10 @@
+@startuml
+title Search Books By Title
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Search books by title
+LMS --> HTTP_Client : 200 - books or 404 - not found
+
+@enduml

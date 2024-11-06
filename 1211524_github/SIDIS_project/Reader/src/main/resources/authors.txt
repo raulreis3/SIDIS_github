@@ -1,0 +1,43 @@
+name;shortBio
+António Vilaça Pacheco;Author and software engineer with extensive experience in developing large-scale applications.
+Pedro Andersson;Financial advisor and author of several books on personal finance.
+Joanne Harris;British author known for her novel Chocolat.
+Hans Rosling;Swedish physician, academic, and public speaker known for his work with global health statistics.
+José Saramago;Portuguese writer and recipient of the 1998 Nobel Prize in Literature.
+Gabriel García Márquez;Colombian novelist and winner of the 1982 Nobel Prize in Literature, known for One Hundred Years of Solitude.
+Nicolau Maquiavel;Italian Renaissance political philosopher and author of The Prince.
+Maribel Yasmina Santos;Researcher and professor in computer science, specializing in data mining and machine learning.
+Adam Jenson;Fictional character and protagonist in the Deus Ex video game series.
+Anna Rosling Ronnlund;Co-author and collaborator on global health projects.
+Ola Rosling;Co-author and collaborator on global health projects.
+Isabel Ramos;Researcher and professor specializing in information systems and data management.
+William Shakespeare;Renowned playwright and poet.
+Jane Austen;English novelist known for her six major novels.
+Charles Dickens;English writer and social critic.
+Leo Tolstoy;Russian author, regarded as one of the greatest authors of all time.
+Mark Twain;American writer, humorist, entrepreneur, publisher, and lecturer.
+Robert C. Martin;Author and software engineer, also known as "Uncle Bob."
+Micah Martin;Software developer and co-author with Robert C. Martin.
+Larry Niven;Science fiction writer.
+Jerry Pournelle;Science fiction writer and collaborator with Larry Niven.
+Brandon Sanderson;Fantasy and science fiction writer.
+Janci Patterson;Fantasy and science fiction writer and collaborator with Brandon Sanderson.
+John Scalzi;Science fiction writer.
+Wil Wheaton;Actor and writer, known for his work in science fiction.
+Dan Ariely;Professor of psychology and behavioral economics.
+Jeff Kreisler;Writer, comedian, and co-author with Dan Ariely.
+Stephen R. Covey;Author and educator, known for his book "The 7 Habits of Highly Effective People."
+Rebecca R. Merrill;Co-author with Stephen R. Covey.
+Gary Keller;American entrepreneur and best-selling author.
+Jay Papasan;American writer and business executive, co-author with Gary Keller.
+David Hansson;Creator of Ruby on Rails, co-author with Jason Fried and Matthew Linderman.
+Jason Fried;Co-founder of Basecamp, co-author with David Hansson and Matthew Linderman.
+Matthew Linderman;Collaborator with Jason Fried and David Hansson.
+Paul Barry;Author and educator in computer science.
+David Griffiths;Software development author and educator.
+Doris Kearns Goodwin;short bio
+Michael Beschloss;short bio
+John Meacham;short bio
+Tim McGraw;short bio
+Bob Woodward;short bio
+Carl Bernstein;short bio

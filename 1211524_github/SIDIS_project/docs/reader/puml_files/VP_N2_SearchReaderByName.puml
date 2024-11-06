@@ -1,0 +1,14 @@
+@startuml
+title Search Reader By Name
+actor "HTTP Client" as client
+participant ":Readers" as Readers
+
+client -> Readers: 1: GET /api/readers?name={readerName}
+activate Readers
+alt if reader is found
+  Readers -> client: 2: 200 OK - reader details
+else
+  Readers -> client: 3: 404 Not Found - reader not found
+end
+deactivate Readers
+@enduml

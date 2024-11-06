@@ -1,0 +1,10 @@
+@startuml
+title View User Details Given UserNr
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : View user details given user number
+LMS --> HTTP_Client : 200 - User details or 404 - user not found
+
+@enduml

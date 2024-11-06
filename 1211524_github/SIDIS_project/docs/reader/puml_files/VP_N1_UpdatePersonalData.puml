@@ -1,0 +1,10 @@
+@startuml
+title Update Personal Data
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Update personal data
+LMS --> HTTP_Client : 200 - Data updated or 404 - reader not found
+
+@enduml

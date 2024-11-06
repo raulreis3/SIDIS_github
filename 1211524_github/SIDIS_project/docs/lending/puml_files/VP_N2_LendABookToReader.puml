@@ -1,0 +1,14 @@
+@startuml
+title Lend Book To Reader
+actor "HTTP Client" as client
+participant ":Lendings" as Lendings
+
+client -> Lendings: 1: POST /api/lendings/{ISBN}
+activate Lendings
+alt if book is available
+  Lendings -> client: 2: 200 OK - Book lent successfully
+else
+  Lendings -> client: 3: 404 Not Found - Book not available
+end
+deactivate Lendings
+@enduml

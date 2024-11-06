@@ -1,0 +1,14 @@
+@startuml
+title Update Book Data
+actor "HTTP Client" as client
+participant ":LMS" as Books
+
+client -> Books: 1: PUT /api/books/{ISBN}
+activate Books
+alt if exception is returned
+  Books -> client: 2: 404 Not Found - Book not found
+else
+  Books -> client: 3: 200 OK - Book data updated
+end
+deactivate Books
+@enduml

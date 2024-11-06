@@ -1,0 +1,10 @@
+@startuml
+title View Average Lending Duration
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : View average lending duration
+LMS --> HTTP_Client : 200 - Average lending duration
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+title Lend Book To Reader
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Lend a book to reader
+LMS --> HTTP_Client : 200 - Book lent or 404 - Book not available
+
+@enduml

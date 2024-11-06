@@ -1,0 +1,10 @@
+@startuml
+title View Average Lendings Per Genre
+actor "HTTP Client" as client
+participant ":Lendings" as Lendings
+
+client -> Lendings: 1: GET /api/lendings/average?genre={genre}
+activate Lendings
+Lendings -> client: 2: 200 OK - Average lendings per genre
+deactivate Lendings
+@enduml

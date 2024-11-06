@@ -1,0 +1,14 @@
+@startuml
+title View Author Details Given AuthorNr
+actor "HTTP Client" as client
+participant ":Books" as Books
+
+client -> Books: 1: GET /api/authors/{authorNr}
+activate Books
+alt if book is found
+  Books -> client: 2: 200 OK - Author details
+else
+  Books -> client: 3: 404 Not Found - Author with specific authorNr not found
+end
+deactivate Books
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+title Register As A Reader With Optional Photo And List Of Interest
+actor "HTTP Client" as client
+participant ":Readers" as Readers
+
+client -> Readers: 1: POST /api/readers
+activate Readers
+alt if exception is returned
+  Readers -> client: 2: 409 Conflict - reader already exists
+else
+  Readers -> client: 3: 201 Created - reader with optional photo and list of interest registered successfully
+end
+deactivate Readers
+@enduml

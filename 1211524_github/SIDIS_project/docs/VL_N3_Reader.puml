@@ -1,0 +1,7 @@
+@startuml
+rectangle "Reader" <<Container (C4)>> #skyblue {
+    rectangle "Reader Backend" as reader_backend #skyblue
+    database "H2 Database" as reader_db
+}
+reader_backend -[#black,plain]-(0 reader_db : JPA
+@enduml

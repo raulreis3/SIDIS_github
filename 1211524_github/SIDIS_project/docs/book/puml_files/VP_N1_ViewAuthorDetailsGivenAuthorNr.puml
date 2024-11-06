@@ -1,0 +1,10 @@
+@startuml
+title View Author Details Given AuthorNr
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : View book details
+LMS --> HTTP_Client : 200 - author details or 404 - not found
+
+@enduml

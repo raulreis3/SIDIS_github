@@ -1,0 +1,10 @@
+@startuml
+title View Average Lendings Per Genre
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : View average lendings per genre of certain month
+LMS --> HTTP_Client : 200 - Average lendings per genre
+
+@enduml

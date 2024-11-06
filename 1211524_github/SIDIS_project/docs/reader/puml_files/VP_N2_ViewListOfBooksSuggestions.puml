@@ -1,0 +1,10 @@
+@startuml
+title View List Of Book Suggestions
+actor "HTTP Client" as client
+participant ":Readers" as Readers
+
+client -> Readers: 1: GET /api/books/suggestions
+activate Readers
+Readers -> client: 2: 200 OK - List of book suggestions
+deactivate Readers
+@enduml

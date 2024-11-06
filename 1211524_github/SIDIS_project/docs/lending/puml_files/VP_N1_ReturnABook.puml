@@ -1,0 +1,10 @@
+@startuml
+title Return Book
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Return a book
+LMS --> HTTP_Client : 200 - Book returned or 404 - book not found
+
+@enduml

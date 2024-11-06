@@ -1,0 +1,50 @@
+isbn;title;genre;description;authors;coverPath
+978-989-8853-31-8;Bitcoin;Economia;;António Vilaça Pacheco;src/main/resources/bookboostrapper/book1.jpg
+978-989-666-352-0;Contas-Poupança - Como superar a inflação e ganhar com a crise;Economia;Está tudo cada vez mais caro e o dinheiro não estica… e agora?;Pedro Andersson;src/main/resources/bookboostrapper/book2.jpg
+978-989-23-3583-4;Uma questão de classe;Romance;;Joanne Harris;src/main/resources/bookboostrapper/book3.jpg
+978-989-644-504-1;Factfulness;Sociologia;O hábito redutor do stresse que consiste em adotar apenas as opiniões que se fundamentem em factos sólidos;Hans Rosling,Anna Rosling Ronnlund,Ola Rosling;src/main/resources/bookboostrapper/book4.jpg
+978-972-0-04683-3;Ensaio sobre a cegueira;Romance;Um homem fica cego, inexplicavelmente, quando se encontra no seu carro no meio do trânsito. A cegueira alastra como «um rastilho de pólvora». Uma cegueira coletiva.;José Saramago;src/main/resources/bookboostrapper/book5.jpg
+978-9-7272-2880-5;Business Intelligence;Economia;;Maribel Yasmina Santos,Isabel Ramos;src/main/resources/bookboostrapper/book6.jpg
+978-3-16-148410-0;Artificial Intelligence: A Modern Approach;Sociologia;;Adam Jenson,Gabriel García Márquez;src/main/resources/bookboostrapper/book7.png
+978-0-262-03384-8;Introduction to the Theory of Computation;Aventura;A comprehensive introduction to the theory of computation.;Nicolau Maquiavel;null
+978-0-13-110362-7;The C Programming Language;Drama;Classic book on C programming.;António Vilaça Pacheco;null
+978-6-2219-9414-4;Learning Python;Economia;An in-depth introduction to Python.;Pedro Andersson;null
+978-0-596-52068-7;JavaScript: The Good Parts;Sociologia;A deep dive into JavaScript.;Joanne Harris;null
+978-1-59327-599-0;Eloquent JavaScript;Ficção Científica;A modern introduction to JavaScript.;Hans Rosling;null
+978-0-13-468599-1;Clean Architecture;Sociologia;A guide to software architecture.;José Saramago;null
+978-0-321-92868-9;Design Patterns;Ficção Científica;;Maribel Yasmina Santos,William Shakespeare;null
+978-9-8709-6223-6;Introduction to Algorithms;Biografia;A comprehensive introduction to algorithms.;Gabriel García Márquez,Jane Austen;null
+978-0-13-235088-4;Clean Code;Autoajuda;A handbook of agile software craftsmanship.;Nicolau Maquiavel,Charles Dickens;null
+978-4-0531-7568-7;Fluent Python;Ficção Científica;;António Vilaça Pacheco,Leo Tolstoy;null
+978-6-8009-2396-1;The Pragmatic Programmer;Economia;Your journey to mastery.;Pedro Andersson,Mark Twain;null
+978-1-59327-584-6;Python Crash Course;Sociologia;A hands-on introduction to programming.;Joanne Harris;null
+978-8-6935-0162-2;Introduction to Machine Learning with Python;Comédia;A guide to implementing machine learning with Python.;Hans Rosling;null
+978-7-4715-3460-9;Deep Learning;Ciência;An introduction to deep learning.;José Saramago;null
+978-1-4719-3708-8;Structure and Interpretation of Computer Programs;Sociologia;A foundational book on computer science.;Maribel Yasmina Santos;null
+978-3-0111-9180-6;Compilers: Principles, Techniques, and Tools;Drama;A comprehensive guide to compilers.;Gabriel García Márquez;null
+978-8-0645-6012-8;The Mythical Man-Month;Romance;;Nicolau Maquiavel,David Hansson,Jason Fried,Matthew Linderman;null
+978-1-7389-0734-2;Refactoring;Economia;Improving the design of existing code.;António Vilaça Pacheco,Paul Barry,David Griffiths;null
+978-9-5318-6467-1;You Don't Know JS;Aventura;A book series on JavaScript.;Pedro Andersson,Robert C. Martin,Micah Martin;null
+978-0-5264-0693-7;The Art of Computer Programming;Romance;A comprehensive guide to computer programming.;Joanne Harris;null
+978-7-3675-5124-6;The Elements of Statistical Learning;Economia;Data mining, inference, and prediction.;Hans Rosling,Larry Niven,Jerry Pournelle;null
+978-8-9438-3527-9;Head First Design Patterns;Ficção Científica;A brain-friendly guide.;José Saramago,Brandon Sanderson,Janci Patterson;null
+978-4-1565-7830-9;Data Science from Scratch;Mistério;;Maribel Yasmina Santos,John Scalzi,Wil Wheaton;null
+978-9-8500-1436-8;Python Data Science Handbook;Aventura;Essential tools for working with data.;Gabriel García Márquez;null
+978-5-7493-1678-0;Hadoop: The Definitive Guide;Ficção Científica;Storage and analysis at internet scale.;Nicolau Maquiavel;null
+978-2-1882-6452-8;Deep Learning with Python;Comédia;A hands-on guide.;António Vilaça Pacheco,Dan Ariely,Jeff Kreisler;null
+978-0-262-02364-1;Reinforcement Learning: An Introduction;Mistério;A comprehensive introduction.;Pedro Andersson,Stephen R. Covey,Rebecca R. Merrill;null
+978-1-0697-0644-7;Statistics for Data Scientists;Aventura;50 essential concepts.;Joanne Harris,Gary Keller,Jay Papasan;null
+978-9-7473-0379-7;Pattern Recognition and Machine Learning;Ficção Científica;A guide to pattern recognition.;Hans Rosling;null
+978-5-6466-7006-0;Machine Learning Yearning;Mistério;Technical strategy for AI.;José Saramago;null
+978-8-6180-7114-8;Applied Predictive Modeling;Sociologia;Techniques and tools.;Maribel Yasmina Santos;null
+978-7-1944-0477-7;Hands-On Machine Learning with Scikit-Learn and TensorFlow;Mistério;Concepts, tools, and techniques.;Gabriel García Márquez,Doris Kearns Goodwin,Michael Beschloss;null
+978-2-7101-5468-6;Python for Data Analysis;Economia;Data wrangling with Pandas.;Nicolau Maquiavel,John Meacham,Tim McGraw;null
+978-9-4496-1568-6;Pattern Classification;Romance;Techniques and tools.;António Vilaça Pacheco,Bob Woodward,Carl Bernstein;null
+978-1-8568-2103-2;Practical Statistics for Data Scientists;Romance;;Pedro Andersson;null
+978-0-9857-5120-3;Designing Data-Intensive Applications;Comédia;The big ideas behind reliable, scalable, and maintainable systems.;Joanne Harris;null
+978-5-9975-4245-0;The Data Warehouse Toolkit;Mistério;The definitive guide to dimensional modeling.;Hans Rosling;null
+978-7-9866-9184-2;Python Machine Learning;Mistério;Machine learning with Python.;José Saramago;null
+978-5-5637-4041-9;Data Mining: Concepts and Techniques;Economia;Techniques and tools.;Maribel Yasmina Santos;null
+978-0-2075-2881-1;Natural Language Processing with Python;Ficção Científica;Analyzing text with the natural language toolkit.;Gabriel García Márquez;null
+978-7-6403-6725-0;Deep Reinforcement Learning Hands-On;Biografia;Techniques and tools.;Nicolau Maquiavel;null
+978-123-4567-89-7;Teste;Economia;Teste;António Vilaça Pacheco,Paul Barry;null

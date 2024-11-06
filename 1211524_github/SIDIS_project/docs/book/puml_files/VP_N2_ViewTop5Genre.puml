@@ -1,0 +1,10 @@
+@startuml
+title Top 5 Genres
+actor "HTTP Client" as client
+participant ":Books" as Books
+
+client -> Books: 1: GET /api/books/top/genres
+activate Books
+Books -> client: 2: 200 OK - List of Top 5 Genres
+deactivate Books
+@enduml

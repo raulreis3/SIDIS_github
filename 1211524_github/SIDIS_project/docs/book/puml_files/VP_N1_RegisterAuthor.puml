@@ -1,0 +1,10 @@
+@startuml
+title Register Author
+actor HTTP_Client as "HTTP Client"
+participant LMS as ":LMS"
+autoactivate on
+
+HTTP_Client -> LMS : Register new author
+LMS --> HTTP_Client : 201 - ok or 409 - conflict
+
+@enduml

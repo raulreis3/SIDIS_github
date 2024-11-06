@@ -1,0 +1,10 @@
+@startuml
+title View Average Lending Duration
+actor "HTTP Client" as client
+participant ":Lendings" as Lendings
+
+client -> Lendings: 1: GET /api/lendings/average-duration
+activate Lendings
+Lendings -> client: 2: 200 OK - Average lending duration
+deactivate Lendings
+@enduml

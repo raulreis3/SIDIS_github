@@ -1,0 +1,14 @@
+@startuml
+title Update Personal Data
+actor "HTTP Client" as client
+participant ":Readers" as Readers
+
+client -> Readers: 1: PUT /api/readers/{readerId}
+activate Readers
+alt if exception is returned
+  Readers -> client: 2: 404 Not Found - reader not found
+else
+  Readers -> client: 3: 200 OK - personal data updated
+end
+deactivate Readers
+@enduml
